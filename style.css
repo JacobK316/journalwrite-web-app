@@ -1,7 +1,7 @@
 body {
   font-family: 'Segoe UI', sans-serif;
   margin: 0;
-  padding: 0;
+  padding: 0 1em;
   background-color: #fdfcfb;
   color: #333;
   line-height: 1.6;
@@ -14,13 +14,42 @@ header, footer {
 }
 
 header h1 {
-  margin-bottom: 0.5rem;
+  margin-bottom: 1em;
 }
 
 main {
   padding: 2rem;
   max-width: 800px;
   margin: auto;
+}
+
+#need-help {
+  padding: 2em 1em;
+  background: #f9f9f9;
+  text-align: center;
+}
+
+form {
+  max-width: 500px;
+  margin: auto;
+}
+
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
 }
 
 section {
